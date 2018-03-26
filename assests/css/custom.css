@@ -1,19 +1,116 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.font-trajan{
+
+}
 .header-contato{
 	width: 100%;
 	height: 2rem;
 	color: #fff;
-	background-color: #000;
+	font-size: 14px;
+	background-color: #242424;
+}
+.logo-borda{
+	background-color: #bc9839;
+	padding: 8px;
+}
+.btn-custom {
+	color: #fff;
+	background-color: #bc9839;
+	border-color: #bc9839;
+	border-radius: 0;
+}
+.carousel{
+	height: 34.5rem;
 }
 .jumbotron{
 	color:#fff;
-	background-color: #000;
+	background-color: #bc9839;
 	border-radius: 0px;
+	background-color: transparent; 
+}
+.img-jumbo{
+	background-image: url("../img/banner-1.png");
+	background-position: center center;
+	  background-repeat: no-repeat;
+	  background-attachment: none;
+	  background-size: cover;
+}
+.alinhar{
+	margin: 6rem 0;
+}
+.alinhar h2{
+	font-size: 3rem;
 }
 .action{
 	color:#fff;
-	background-color: #000;
+	background-color: #242424;
+	padding: 1rem 0;
+}
+.destaque{
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.quem-somos{
+	margin-top: 6rem;
+}
+.titulos{
+	font-size: 3rem;
+}
+.titulos span{
+	color: #bc9839;
+}
+.margin-custom{
+	margin: 8rem 0 5rem 0;
+}
+.especialistas{
+	margin-bottom: 6rem;
+}
+.img-adv{
+	width: 280px;
+	height: 205px;
+}
+.adv-nome{
+	width: 80%;
+	font-size: 1.5rem;
+	margin: 0 1.8rem;
+	padding: 0.7rem 0.5rem;
+	position: relative;
+	bottom: 1rem;
+}
+.mx-4 div{
+	font-size: 0.9rem;
+}
+.atuacao{
+	background-color: #faf9f4;
+	padding: 5rem 0;
+}
+.titulo-atuacao{
+	margin-bottom: 5rem;
+}
+.back-area{
+	background-color: #fff;
+}
+.img-area{
+	position: relative;
+	bottom: 1rem;
+}
+.margin-area{
+	margin-top: 5rem;
+}
+.contato{
+	padding: 3rem;
 }
 .footers{
 	color:#fff;
-	background-color: #000;
+	background-color: #242424;
+	padding: 2rem 0;
+}
+.titulo-footer{
+	color: #bc9839;
+}
+.footers p {
+	font-size: 0.9rem;
 }
