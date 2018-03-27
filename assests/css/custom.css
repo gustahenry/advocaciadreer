@@ -4,7 +4,7 @@ body{
 @media screen and (min-width: 800px){
 .logo{
  position: relative;
- bottom: 143px;
+ bottom: 123px;
 left: 42%;
 right: 42%;
 }
@@ -23,13 +23,16 @@ right: 42%;
     }
 
 .navbar-nav{
-	padding: 2.6rem 0;
+	padding: 2.0rem 0;
 }
 
+.header{
+	background-color: #242424;
+}
 
 .header-contato{
 	width: 100%;
-	height: 2.9rem;
+	padding: 0.6rem 0rem 0rem 0rem;
 	color: #fff;
 	font-size: 14px;
 	background-color: #242424;
@@ -44,6 +47,13 @@ right: 42%;
 	border-color: #bc9839;
 	border-radius: 0;
 }
+@media screen and(min-width: 800px){
+	.margin-botao{
+	position: relative;
+	top: 0.5rem;
+}
+}
+
 .carousel{
 	position: relative;
 	
