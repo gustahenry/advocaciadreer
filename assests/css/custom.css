@@ -4,7 +4,7 @@ body{
 @media screen and (min-width: 800px){
 .logo{
  position: relative;
- bottom: 59px;
+ bottom: 143px;
 left: 42%;
 right: 42%;
 }
@@ -22,7 +22,9 @@ right: 42%;
     src: url('../fonts/trajan-pro-regular.ttf') format('truetype');
     }
 
-
+.navbar-nav{
+	padding: 2.6rem 0;
+}
 
 
 .header-contato{
