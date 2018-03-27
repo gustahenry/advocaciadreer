@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assests/css/bootstrap.min.css">
     <link rel="stylesheet" href="assests/css/custom.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="assests/fonts/trajan-pro.ttf" rel="stylesheet">
     <title>Advocacia Dreer</title>
   </head>
 
@@ -27,43 +28,46 @@
           </div>
         </div>
 
+
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">QUEM SOMOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">EQUIPE</a>
-              </li>
-            </ul>
-          </div>
-
-          <a class="navbar-brand" href="#"><img class="logo-borda" src="assests/img/logo-dreer.png" alt=""></a>
+          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">AREA DE ATUAÇÃO</a>
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="btn btn-custom" href="#">CONTATO</a>
+                <a class="nav-link" href="#quem-somos">QUEM SOMOS</a>
+              </li>
+              <li class="nav-item margin-menu2">
+                <a class="nav-link" href="#equipe">EQUIPE</a>
+              </li>
+              <li class="nav-item margin-menu">
+                <a class="nav-link" href="#atuacao">AREA DE ATUAÇÃO</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-custom" href="#contato">CONTATO</a>
               </li>
             </ul>
           </div>
+          
+
         </nav>
+        
+        <div class="ml-auto mr-auto" style="height: 0;">
+          <a class="navbar-brand logo" style="z-index: 2" href="#"><img class="logo-borda" style="z-index: 20;" src="assests/img/logo-dreer.png" alt=""></a>
+        </div>
     </section>
     
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
+
         <div class="carousel-item active">
           <div class="jumbotron text-center img-jumbo">
             <div class="alinhar">
@@ -124,43 +128,46 @@
         
       </section>
       
-      <section class="quem-somos">
+      <section class="quem-somos" id="quem-somos">
         <div class="container">
           <h2 class="text-center titulos">Saiba <span>Quem Somos</span></h2>
           <p class="text-center">Lorem ipsum dolor sit amet consectetur lorem ipsum</p>
-          <div style="margin: 2rem 0"><img src="assests/img/banner-sobre.png" alt=""></div>
+          <div style="margin: 0rem 0"><img class="img-fluid" src="assests/img/banner-sobre.png" alt=""></div>
           <div class="row">
-            <div class="col-sm">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.</div>
-            <div class="col-sm">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.</div>
+            <div class="col-sm margin-area">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.</div>
+            <div class="col-sm margin-area">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.</div>
           </div>
         </div>
       </section>
         <div class="container"><hr class="margin-custom"></div>  
-      <section class="especialistas">
+      <section class="especialistas" id="equipe">
         <div class="container">
           <h2 class="text-center titulos">Somos Especialistas <span>em Direito</span></h2>
           <p class="text-center">Lorem ipsum dolor sit amet consectetur lorem ipsum</p>
-          <div class="d-flex justify-content-center">
-            <div class="mx-4" style="width: 290px">
-              <img class="img-adv" src="assests/img/adv-1.png" alt="">
-              <div class="text-center btn-custom adv-nome">PRIMEIRO NOME</div>
-              <div class="text-center">
-                Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.
+          <div class="row justify-content-center">
+            <div class="col-sm-4">
+              <div class="" style="width: 17rem">
+                <img class="img-adv" src="assests/img/adv-1.png" alt="">
+                <div class="text-center btn-custom adv-nome">PRIMEIRO NOME</div>
+                <div class="text-center">
+                  Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.
+                </div>
               </div>
             </div>
-             <div class="mx-4" style="width: 290px">
-              <img class="img-adv" src="assests/img/adv-2.png" alt="">
-              <div class="text-center btn-custom adv-nome">PRIMEIRO NOME</div>
-              <div class="text-center">
-                Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.
+            <div class="col-sm-4">
+              <div class="" style="width: 17rem">
+                <img class="img-adv" src="assests/img/adv-2.png" alt="">
+                <div class="text-center btn-custom adv-nome">PRIMEIRO NOME</div>
+                <div class="text-center">
+                  Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.
+                </div>
               </div>
-            </div>
-             
+            </div>   
           </div>
         </div>
       </section>
 
-      <section class="atuacao">
+      <section class="atuacao" id="atuacao">
         <div class="container">
           <div class="titulo-atuacao">
             <h2 class="text-center titulos">Área de <span>Atuação</span></h2>
@@ -168,44 +175,44 @@
           </div>
         
           <div class="row">
-            <div class="col-sm mx-2 back-area">
+            <div class="col-sm mx-2 back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
             </div>
-            <div class="col-sm mx-2  back-area">
+            <div class="col-sm mx-2  back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
             </div>
-            <div class="col-sm mx-2 back-area">
+            <div class="col-sm mx-2 back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
             </div>
-            <div class="col-sm mx-2 back-area">
+            <div class="col-sm mx-2 back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
             </div>
           </div>
-          <div class="row margin-area">
-            <div class="col-sm mx-2 back-area">
+          <div class="row">
+            <div class="col-sm mx-2 back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
             </div>
-            <div class="col-sm mx-2  back-area">
+            <div class="col-sm mx-2  back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
             </div>
-            <div class="col-sm mx-2 back-area">
+            <div class="col-sm mx-2 back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
             </div>
-            <div class="col-sm mx-2 back-area">
+            <div class="col-sm mx-2 back-area margin-area">
               <img class="img-area" src="assests/img/area.png" alt="">
               <h4>Área de Atuação 1</h4>
               <p>Sed neque enim, finibus ut volutpat eget, vehicula posuere arcu. Morbi tincidunt odio dui, vel euismod urna.</p>
@@ -219,7 +226,7 @@
         
       </section>
 
-      <section class="contato">
+      <section class="contato" id="contato">
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -246,7 +253,26 @@
                 <button type="submit" class="btn btn-custom">Saiba mais</button>
               </form>
             </div>
-            <div class="col-sm"></div>
+            <div class="col-sm">
+              <div id="map"></div>
+              <script>
+                function initMap() {
+                  var uluru = {lat: -25.363, lng: 131.044};
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                  });
+                  var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+              </script>
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+              </script>
+
+            </div>
           </div>
         </div>
       </section>
@@ -257,13 +283,24 @@
             <div class="col-sm-6">
               <h5 class="titulo-footer">Sobre Nós</h5>
               <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos.</p>
-              <a class="btn btn-custom" href="#" role="button">Learn more</a>
+              <a class="btn btn-custom" href="#" role="button">Saiba mais</a>
             </div>
             <div class="col-sm-3">
               <h5 class="titulo-footer">Navegação</h5>
+              <nav class="nav flex-column">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Quem Somos</a>
+                <a class="nav-link" href="#">Equipe</a>
+                <a class="nav-link" href="#">Área de Atuação</a>
+                <a class="nav-link" href="#">Contato</a>
+              </nav>
             </div>
             <div class="col-sm-3">
               <h5 class="titulo-footer">Informações de Contato</h5>
+              contato@advocaciadreer <br>
+              (11)99999-9999 <br>
+              Rua Seu Endereço, 222 <br>
+              São Paulo/SP Brasil
             </div>
           </div>
           <hr class="">

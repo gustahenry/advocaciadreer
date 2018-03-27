@@ -1,12 +1,24 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-.font-trajan{
-
+@media screen and (min-width: 800px){
+.logo{
+ position: relative;
+ bottom: 59px;
+left: 600px;
+}
+}
+@media screen and (min-width: 800px){
+	.margin-menu{
+		margin-left: 5rem;
+	}
+	.margin-menu2{
+		margin-right: 6rem;
+	}
 }
 .header-contato{
 	width: 100%;
-	height: 2rem;
+	height: 3rem;
 	color: #fff;
 	font-size: 14px;
 	background-color: #242424;
@@ -22,13 +34,15 @@ body{
 	border-radius: 0;
 }
 .carousel{
-	height: 34.5rem;
+	position: relative;
+	
 }
 .jumbotron{
 	color:#fff;
 	background-color: #bc9839;
 	border-radius: 0px;
-	background-color: transparent; 
+	background-color: transparent;
+	margin-bottom: 0;
 }
 .img-jumbo{
 	background-image: url("../img/banner-1.png");
@@ -42,6 +56,7 @@ body{
 }
 .alinhar h2{
 	font-size: 3rem;
+	font-family: 'trajan-pro';
 }
 .action{
 	color:#fff;
@@ -58,6 +73,7 @@ body{
 }
 .titulos{
 	font-size: 3rem;
+	font-family: 'trajan-pro';
 }
 .titulos span{
 	color: #bc9839;
@@ -74,7 +90,7 @@ body{
 }
 .adv-nome{
 	width: 80%;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin: 0 1.8rem;
 	padding: 0.7rem 0.5rem;
 	position: relative;
@@ -98,7 +114,7 @@ body{
 	bottom: 1rem;
 }
 .margin-area{
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 .contato{
 	padding: 3rem;
@@ -113,4 +129,8 @@ body{
 }
 .footers p {
 	font-size: 0.9rem;
+}
+.nav-link{
+	padding: 0;
+	color: #fff;
 }
