@@ -22,12 +22,12 @@ right: 42%;
     src: url('../fonts/trajan-pro-regular.ttf') format('truetype');
     }
 
-.navbar-nav{
-	padding: 2.0rem 0;
+.bg-transparente {
+    background-color: transparent !important;
 }
 
 .header{
-	background-color: #242424;
+	
 }
 
 .header-contato{
@@ -47,6 +47,10 @@ right: 42%;
 	border-color: #bc9839;
 	border-radius: 0;
 }
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
 @media screen and(min-width: 800px){
 	.margin-botao{
 	position: relative;
@@ -56,7 +60,7 @@ right: 42%;
 
 .carousel{
 	position: relative;
-	
+
 }
 .jumbotron{
 	color:#fff;
@@ -154,4 +158,10 @@ right: 42%;
 .nav-link{
 	padding: 0;
 	color: #fff;
+}
+.text{
+	position: absolute;
+	z-index: 1;
+	margin-left:24.7%;
+	margin-right:24.7%;
 }
