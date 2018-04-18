@@ -43,6 +43,7 @@ right: 42%;
 }
 .btn-custom {
 	color: #fff;
+	font-weight: bold;
 	background-color: #bc9839;
 	border-color: #bc9839;
 	border-radius: 0;
@@ -56,9 +57,9 @@ right: 42%;
 	padding: .5rem 0;
 }
 @media screen and(min-width: 800px){
-	.margin-botao{
+	#margin-botao{
 	position: relative;
-	top: 0.5rem;
+	bottom: 1.5rem;
 }
 }
 
