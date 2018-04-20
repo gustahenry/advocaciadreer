@@ -1,36 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-@media screen and (min-width: 800px){
-.logo{
- position: relative;
- bottom: 123px;
-left: 42%;
-right: 42%;
-}
-}
-@media screen and (min-width: 800px){
-	.margin-menu{
-		margin-left: 7rem;
-	}
-	.margin-menu2{
-		margin-right: 8rem;
-	}
-}
-@font-face {
-    font-family: 'trajan-pro-regular';
-    src: url('../fonts/trajan-pro-regular.ttf') format('truetype');
-    }
 a:hover{
 	color: #242424;
 }
-.bg-transparente {
-    background-color: transparent !important;
-}
 
-.header{
-	
-}
+/*CONTACT BAR*/
 
 .header-contato{
 	width: 100%;
@@ -39,18 +14,25 @@ a:hover{
 	font-size: 14px;
 	background-color: #242424;
 }
-.logo-borda{
-	background-color: #bc9839;
-	padding: 15.5px 45px;
-}
-.team-name {
-	color: #fff;
-	font-weight: bold;
-	background-color: #bc9839;
-	border-color: #bc9839;
-	border-radius: 0;
-}
 
+/*NAVBAR*/
+
+.logo{
+	width: 6rem;
+}
+.navbar{
+	padding: .5rem 0;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link{
+	color: #000;
+	font-weight: bold;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #bc9839;
+	font-weight: bold;
+}
 .btn-custom {
 	color: #fff;
 	font-weight: bold;
@@ -66,25 +48,9 @@ a:hover{
 	border-color: #bc9839;
 	border-radius: 0;
 }
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link{
-	color: #fff;
-	font-weight: bold;
-}
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link:hover{
-	color: #bc9839;
-	font-weight: bold;
-}
-.navbar{
-	padding: .5rem 0;
-}
-@media screen and(min-width: 800px){
-	#margin-botao{
-	position: relative;
-	bottom: 1.5rem;
-}
-}
+
+
+/*SLIDER*/
 
 .carousel{
 	position: relative;
@@ -96,6 +62,13 @@ a:hover{
 	border-radius: 0px;
 	background-color: transparent;
 	margin-bottom: 0;
+}
+.alinhar{
+	margin: 6rem 0;
+}
+.alinhar h2{
+	font-size: 3rem;
+	font-family: 'trajan-pro-regular';
 }
 .img-jumbo-1{
 	background-image: url("../img/1200px/banner-1(1200).png");
@@ -119,14 +92,8 @@ a:hover{
 	  background-size: cover;
 }
 
+/*CTA*/
 
-.alinhar{
-	margin: 6rem 0;
-}
-.alinhar h2{
-	font-size: 3rem;
-	font-family: 'trajan-pro-regular';
-}
 .action{
 	color:#fff;
 	background-color: #242424;
@@ -137,6 +104,9 @@ a:hover{
 	font-weight: bold;
 	margin-bottom: 0;
 }
+
+/*ABOUT*/
+
 .quem-somos{
 	margin-top: 6rem;
 }
@@ -147,49 +117,20 @@ a:hover{
 .titulos span{
 	color: #bc9839;
 }
-.margin-custom{
-	margin: 8rem 0 5rem 0;
-}
-.especialistas{
-	margin: 6rem 0;
-}
-.img-adv{
-	width: 280px;
-	height: 205px;
-}
-.adv-nome{
-	width: 80%;
-	font-size: 1.2rem;
-	margin: 0 1.8rem;
-	padding: 1rem 0.7rem;
-	position: relative;
-	bottom: 1rem;
-}
-.mx-4 div{
-	font-size: 0.9rem;
-}
-.atuacao{
-	background-color: #faf9f4;
-	padding: 5rem 0;
-}
-.titulo-atuacao{
-	margin-bottom: 2rem;
+.margin-area{
+	margin: 1.5rem 0;
 }
 .titulo-menor{
 	color: #555;
 	font-weight: bold;
 	margin: 4rem 0;
 }
+.titulo-valores{
+	font-weight: bold;
+	color: #bc9839;
+}
 .back-area{
 	padding: 1rem;
-}
-.back-area2{
-	padding: 1rem;
-	background-color: #fff;
-}
-.img-area2{
-	position: relative;
-	bottom: 2rem;
 }
 .back-area h5{
 	color: #444;
@@ -199,9 +140,60 @@ a:hover{
 .back-area p{
 	margin-bottom: 0;
 }
+
+/*DIFFERENTIAL*/
+
+/*SPECIALIST*/
+
+.especialistas{
+	margin: 6rem 0;
+}
+.img-adv{
+	width: 280px;
+	height: 205px;
+}
+.team-name {
+	color: #fff;
+	font-weight: bold;
+	background-color: #bc9839;
+	border-color: #bc9839;
+	border-radius: 0;
+}
+.adv-nome{
+	width: 80%;
+	font-size: 1.2rem;
+	margin: 0 1.8rem;
+	padding: 1rem 0.7rem;
+	position: relative;
+	bottom: 1rem;
+}
+
+/*PERFORMANCE*/
+
+.atuacao{
+	background-color: #faf9f4;
+	padding: 5rem 0;
+}
+.titulo-atuacao{
+	margin-bottom: 2rem;
+}
+.back-area2{
+	padding: 1rem;
+	background-color: #fff;
+}
+.img-area2{
+	position: relative;
+	bottom: 2rem;
+}
+
+/*CONTACT*/
+
 .contato{
 	padding: 3rem;
 }
+
+/*FOOTER*/
+
 .footers{
 	color:#fff;
 	background-color: #242424;
@@ -213,22 +205,22 @@ a:hover{
 .footers p {
 	font-size: 0.9rem;
 }
+#sub-menu a:hover{
+	color: #bc9839;
+}
 .nav-link{
 	padding: 0;
 	color: #fff;
 }
-#sub-menu a:hover{
-	color: #bc9839;
+
+/*MEDIA*/
+
+@media screen and(min-width: 800px){
+	#margin-botao{
+	position: relative;
+	bottom: 1.5rem;
 }
-.text{
-	position: absolute;
-	margin-right: auto;
-	margin-left: auto;
-	left: 0;
-	right: 0;
-	z-index: 1;
-}
-.titulo-valores{
-	font-weight: bold;
-	color: #bc9839;
-}
+@font-face {
+    font-family: 'trajan-pro-regular';
+    src: url('../fonts/trajan-pro-regular.ttf') format('truetype');
+    }
