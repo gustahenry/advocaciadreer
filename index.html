@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assests/fonts/trajan-pro-regular.ttf" rel="stylesheet">
     <link rel="stylesheet" href="assests/css/bootstrap.min.css">
     <link rel="stylesheet" href="assests/css/custom.css?version=2">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="assests/fonts/trajan-pro.ttf" rel="stylesheet">
     <link rel="icon" href="assests/img/img.ico" />
     <title>Advocacia Dreer</title>
   </head>
@@ -19,11 +19,11 @@
               <div class="col-sm-7">
                 <p class="">Rua Diogo Farias, n.º 119, casa 04, Centro, Guarulhos - SP</p>
               </div>
-              <div class="col-sm-2 text-right">
-                <p>(11)2447-0874</p>
+              <div class="col-sm-2">
+                <p class="text-right text-media-align"><img class="icones" src="assests/img/icone-telefone.svg" alt="">(11)2447-0874</p>
               </div>
-              <div class="col-sm-3 text-right">
-                <p class="">contato@advocaciadreer.com.br</p>
+              <div class="col-sm-3">
+                <p class="text-right text-media-align"><img class="icones" src="assests/img/icone-email.svg" alt="">contato@advocaciadreer.com.br</p>
               </div>
             </div>
           </div>
@@ -111,12 +111,12 @@
     <section class="action">
         <div class="container">
           <div class="row">
-          <div class="col-sm-1 mr-4"><img  src="assests/img/logo-cta.png" alt="balança"></div>
-          <div class="col-sm-8 my-2">
+          <div class="col-sm-1 col-12 mr-4"><img  src="assests/img/logo-cta.png" alt="balança"></div>
+          <div class="col-sm-8 col-12 my-2">
             <p class="mb-0" ">Profissionais especializados com dedicação e excelência.</p>
             <p class="destaque">Entre em contato e solicite nossos serviços.</p>
           </div>
-          <div class="col-sm-2 my-3">
+          <div class="col-sm-2 col-12 my-3">
             <a class="btn btn-custom btn-lg" href="#contato" role="button">Fale conosco</a>
           </div>
         </div>
@@ -129,10 +129,10 @@
           <h2 class="text-center titulos">Saiba <span>Quem Somos</span></h2>
           <p class="text-center">Lorem ipsum dolor sit amet consectetur lorem ipsum</p>
 
-          <div style="margin: 0rem 0"><img class="img-fluid" src="assests/img/banner-sobre.png" alt=""></div>
+          <div><img class="img-fluid" src="assests/img/banner-sobre.png" alt=""></div>
           
            <div class="row justify-content-center mt-5 mx-5">
-              <div class="col-8">
+              <div class="col-sm-8 col-12">
                 <p class="text-center">O escritório Dreer & Dreer Sociedade de Advogados, atua nas mais diversas áreas do Direito, através de sua equipe qualificada, formada pelos sócios e advogados, todos com atuação nas mais distintas áreas do Direito Empresarial, tanto na condução de assuntos consultivos como também ações de caráter contencioso.</p>
               </div>
             </div>
@@ -234,8 +234,8 @@
           <h2 class="text-center titulos">Somos Especialistas <span>em Direito</span></h2>
           <p class="text-center">Lorem ipsum dolor sit amet consectetur lorem ipsum</p>
           <div class="row justify-content-center">
-            <div class="col-sm-4">
-              <div class="" style="width: 17rem">
+            <div class="col-sm-4 col-12">
+              <div class="card-width mr-auto ml-auto">
                 <img class="img-adv" src="assests/img/adv-1.png" alt="">
                 <div class="text-center team-name adv-nome">PRIMEIRO NOME</div>
                 <div class="text-center">
@@ -243,8 +243,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="" style="width: 17rem">
+            <div class="col-sm-4 col-12">
+              <div class="card-width mr-auto ml-auto">
                 <img class="img-adv" src="assests/img/adv-2.png" alt="">
                 <div class="text-center team-name adv-nome">PRIMEIRO NOME</div>
                 <div class="text-center">
@@ -318,7 +318,7 @@
       <section class="contato" id="contato">
         <div class="container">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-sm col-12">
               <h2 class="titulos">Fale <span>Conosco!</span></h2>
               <p class="">Lorem ipsum dolor sit amet consectetur</p>
 
@@ -339,27 +339,12 @@
                   <label class="font-weight-bold" for="comentario">DEIXE AQUI A SUA MENSAGEM*</label>
                   <textarea class="form-control" name="comentario" id="comentario" cols="30" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-custom btn-lg" style="padding: .5rem 3.3rem;">Enviar</button>
+                <button type="submit" class="btn btn-custom send btn-lg">Enviar</button>
               </form>
             </div>
-            <div class="col-sm">
-              <div id="map" style=" width: 100%; height: 100%;"></div>
-              <script>
-                function initMap() {
-                  var uluru = {lat: -23.467196, lng: -46.525824};
-                  var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 17,
-                    center: uluru
-                  });
-                  var marker = new google.maps.Marker({
-                    position: uluru,
-                    map: map
-                  });
-                }
-              </script>
-              <script async defer
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1c_v8brg_AnO_yr352IxRIk_YUro6EOU&callback=initMap">
-              </script>
+            <div class="col-sm col-12">
+
+              <div id="map"></div>
 
             </div>
           </div>
@@ -394,10 +379,10 @@
           </div>
           <hr class="">
           <div class="row justify-content-between">
-            <div class="col-5">
+            <div class="col-sm-5 col-12">
               <p>2018 Dreer & Dreer Advocacia - Todos os direitos reservados.</p>
             </div>
-            <div class="col-2 ml-auto">
+            <div class="col-sm-2 col-12 ml-auto">
               <a href="http://estudiomalves.com/"><img src="assests/img/logo-malves.png" alt=""></a>
             </div>
           </div>
@@ -405,7 +390,8 @@
       </section>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="assests/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="assests/js/google-maps.js" crossorigin="anonymous"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1c_v8brg_AnO_yr352IxRIk_YUro6EOU&callback=initMap"></script>
   </body>
 </html>
