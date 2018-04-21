@@ -3,7 +3,7 @@ require_once('PHPMailer/PHPMailerAutoload.php');
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-$assunto = $_POST['assunto'];
+$telefone = $_POST['telefone'];
 $mensagem = $_POST['mensagem'];
 
 $mail = new PHPMailer();
@@ -13,12 +13,12 @@ $mail->Port = 2525;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = "contato@advocaciadreer.com.br";
-$mail->Password = "010203";
+$mail->Password = "contato@dreer";
 
 $mail->setFrom("contato@advocaciadreer.com.br","{$nome}");
 $mail->addAddress("contato@advocaciadreer.com.br");
 $mail->Subject = $assunto;
-$mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}</html>");
+$mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}<br/>telefone: {$telefone}</html>");
 $mail->AltBody= "de: {$nome}\nemail: {$email}\nmensagem: {$mensagem}";
 
 if ($mail->send()) {
