@@ -16,26 +16,26 @@
       <div class="header-contato">
           <div class="container">
             <div class="row">
-              <div class="col-sm-7">
+              <div class="col-md-6 col-sm-7 col-12">
                 <p class="">Rua Diogo Farias, n.º 119, casa 04, Centro, Guarulhos - SP</p>
               </div>
-              <div class="col-sm-2">
+              <div class="col-md-2 col-sm-2 col-12">
                 <p class="text-right text-media-align"><img class="icones" src="assests/img/icone-telefone.svg" alt="">(11)2447-0874</p>
               </div>
-              <div class="col-sm-3">
+              <div class="col-md-4 col-sm-3 col-12">
                 <p class="text-right text-media-align"><img class="icones" src="assests/img/icone-email.svg" alt="">contato@advocaciadreer.com.br</p>
               </div>
             </div>
           </div>
         </div>
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar-example">
             <a class="navbar-brand" href="#"><img class="logo" src="assests/img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="#home">HOME</a>
@@ -47,10 +47,10 @@
                   <a class="nav-link" href="#equipe">EQUIPE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#atuacao">AREA DE ATUAÇÃO</a>
+                  <a class="nav-link scrollSuave" href="#atuacao">AREA DE ATUAÇÃO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-custom" id="margin-botao" href="#contato">CONTATO</a>
+                  <a class="btn btn-custom scrollSuave" id="margin-botao" href="#contato">CONTATO</a>
                 </li>
               </ul>
             </div>
@@ -124,6 +124,7 @@
         
       </section>
       
+
       <section class="quem-somos" id="quem-somos">
         <div class="container">
           <h2 class="text-center titulos">Saiba <span>Quem Somos</span></h2>
@@ -200,7 +201,7 @@
        <section class="atuacao" id="atuacao">
         <div class="container">
           <div class="titulo-atuacao">
-            <h2 class="text-center titulos">Nossos<span>Diferenciais</span></h2>
+            <h2 class="text-center titulos">Nossos <span>Diferenciais</span></h2>
             <p class="text-center">Lorem ipsum dolor sit amet consectetur lorem ipsum</p>
           </div>
         
@@ -315,7 +316,7 @@
         
       </section>
 
-      <section class="contato" id="contato">
+      <section class="contato" id="contato" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
         <div class="container">
           <div class="row">
             <div class="col-sm col-12">
@@ -389,9 +390,15 @@
         </div>
       </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
     <script src="assests/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script src="assests/js/google-maps.js" crossorigin="anonymous"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1c_v8brg_AnO_yr352IxRIk_YUro6EOU&callback=initMap"></script>
+
+    <script>
+$('body').scrollspy({ target: '#navbar-example' })
+</script>
+  
+
   </body>
 </html>
