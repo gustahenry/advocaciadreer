@@ -208,12 +208,15 @@ a:hover{
 	color: #464646;
 }
 .fixed-custom {
-    position: sticky;
+	display: none;
+    position: fixed;
     right: 0;
-    tóp: 0;
+    bottom: 0;
     z-index: 1030;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    -webkit-transition:.150s;
+    transition:.150s;
 }
 .botao-topo{
 	width: 3rem;

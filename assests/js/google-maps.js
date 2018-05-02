@@ -19,3 +19,17 @@ $('.navas a[href^="#"]').on('click', function(e) {
     scrollTop: targetOffset - 100
   }, 500);
 });
+
+ $(window).scroll(function(){ 
+      if ($(this).scrollTop()>=100) {
+           $('.fixed-custom').fadeIn();
+      } else {
+           $('.fixed-custom').fadeOut();
+      }
+ });
+
+
+ $('.fixed-custom,.back_top').click(function(){
+      $("html, body").animate({scrollTop: 0 }, 600); 
+      return false;
+ });
