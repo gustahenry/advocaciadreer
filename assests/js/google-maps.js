@@ -21,7 +21,7 @@ $('.navas a[href^="#"]').on('click', function(e) {
 });
 
  $(window).scroll(function(){ 
-      if ($(this).scrollTop()>=100) {
+      if ($(this).scrollTop()>=200) {
            $('.fixed-custom').fadeIn();
       } else {
            $('.fixed-custom').fadeOut();
