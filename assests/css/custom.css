@@ -369,6 +369,17 @@ a:hover{
 }
 
 @media screen and (max-width: 480px){
+  .contato{
+	padding: 1rem 0;
+}
+}
+@media screen and (max-width: 320px){
+  .contato{
+	padding: 1rem 0;
+}
+}
+
+@media screen and (max-width: 480px){
   .titulo-footer{
 	color: #bc9839;
 	margin-top: 1rem;
@@ -380,6 +391,12 @@ a:hover{
 	margin-top: 1rem;
 }
 }
+@media screen and (max-width: 768px){
+  .margin-footer-sobre{
+	margin-bottom: 1rem;
+}
+}
+
 .animate {
     animation: moveDown 0.6s ease-in-out 0.2s backwards;
 }

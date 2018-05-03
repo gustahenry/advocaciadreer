@@ -10,6 +10,7 @@ var marker = new google.maps.Marker({
   map: map
 });
 }
+
 $('.navas a[href^="#"]').on('click', function(e) {
   e.preventDefault();
   var id = $(this).attr('href');
