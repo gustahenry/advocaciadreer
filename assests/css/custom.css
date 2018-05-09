@@ -19,7 +19,7 @@ a:hover{
 	background-color: #242424;
 }
 .icones{
-	width: 1rem;
+	width: .8rem;
 	margin-right: .5rem;
 }
 /*NAVBAR*/
@@ -241,7 +241,7 @@ a:hover{
 
 @media screen and (max-width: 1600px){
   .img-jumbo-1{
-	background-image: url("../img/1200px/banner-1(1200).png");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816595/AdvocaciaDreer/banner-1_1200.png");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -250,7 +250,7 @@ a:hover{
 }
 @media screen and (max-width: 768px){
   .img-jumbo-1{
-	background-image: url("../img/768px/banner-1(768).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816595/AdvocaciaDreer/banner-1_768.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -259,7 +259,7 @@ a:hover{
 }
 @media screen and (max-width: 480px){
   .img-jumbo-1{
-	background-image: url("../img/480px/banner-1(480).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816594/AdvocaciaDreer/banner-1_480.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -268,7 +268,7 @@ a:hover{
 }
 @media screen and (max-width: 320px){
   .img-jumbo-1{
-	background-image: url("../img/320px/banner-1(320).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816593/AdvocaciaDreer/banner-1_320.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -280,7 +280,7 @@ a:hover{
 
 @media screen and (max-width: 1600px){
   .img-jumbo-2{
-	background-image: url("../img/1200px/banner-2(1200).png");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816595/AdvocaciaDreer/banner-2_1200.png");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -289,7 +289,7 @@ a:hover{
 }
 @media screen and (max-width: 768px){
   .img-jumbo-2{
-	background-image: url("../img/768px/banner-2(768).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816597/AdvocaciaDreer/banner-2_768.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -298,7 +298,7 @@ a:hover{
 }
 @media screen and (max-width: 480px){
   .img-jumbo-2{
-	background-image: url("../img/480px/banner-2(480).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816593/AdvocaciaDreer/banner-2_480.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -307,7 +307,7 @@ a:hover{
 }
 @media screen and (max-width: 320px){
   .img-jumbo-2{
-	background-image: url("../img/320px/banner-2(320).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816593/AdvocaciaDreer/banner-2_320.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -319,7 +319,7 @@ a:hover{
 
 @media screen and (max-width: 1600px){
   .img-jumbo-3{
-	background-image: url("../img/1200px/banner-3(1200).png");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816595/AdvocaciaDreer/banner-3_1200.png");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -328,7 +328,7 @@ a:hover{
 }
 @media screen and (max-width: 768px){
   .img-jumbo-3{
-	background-image: url("../img/768px/banner-3(768).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816597/AdvocaciaDreer/banner-3_768.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -337,7 +337,7 @@ a:hover{
 }
 @media screen and (max-width: 480px){
   .img-jumbo-3{
-	background-image: url("../img/480px/banner-3(480).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816595/AdvocaciaDreer/banner-3_480.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
@@ -346,7 +346,7 @@ a:hover{
 }
 @media screen and (max-width: 320px){
   .img-jumbo-3{
-	background-image: url("../img/320px/banner-3(320).jpg");
+	background-image: url("http://res.cloudinary.com/estudiomalves/image/upload/v1525816593/AdvocaciaDreer/banner-3_320.jpg");
 	background-position: center center;
 	  background-repeat: no-repeat;
 	  background-attachment: none;
