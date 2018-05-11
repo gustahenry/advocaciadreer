@@ -12,19 +12,19 @@ $mail->Host = 'mx1.hostinger.com.br';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = "contato@advocaciadreer.com.br";
-$mail->Password = "contato@dreer";
+$mail->Username = "gustavo@estudiomalves.com";
+$mail->Password = "10019266";
 
-$mail->setFrom("contato@advocaciadreer.com.br","{$nome}");
-$mail->addAddress("contato@advocaciadreer.com.br");
+$mail->setFrom("gustavo@estudiomalves.com","{$nome}");
+$mail->addAddress("gustavo@estudiomalves.com");
 $mail->Subject = $assunto;
 $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}<br/>telefone: {$telefone}</html>");
 $mail->AltBody= "de: {$nome}\nemail: {$email}\nmensagem: {$mensagem}";
 
 if ($mail->send()) {
-	header("Location: index.html/?email=sucesso");
+	header("Location: index.html?email=sucesso");
 }else{
-	header("Location: index.html/?email=erro");
+	header("Location: index.html?email=erro");
 }
 die();
  ?>
