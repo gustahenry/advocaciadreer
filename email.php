@@ -9,7 +9,7 @@ $mensagem = $_POST['mensagem'];
 $mail = new PHPMailer();
 $mail->isSMTP();
 $mail->Host = 'mx1.hostinger.com.br';
-$mail->Port = 2525;
+$mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = "contato@advocaciadreer.com.br";
@@ -22,9 +22,9 @@ $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}<
 $mail->AltBody= "de: {$nome}\nemail: {$email}\nmensagem: {$mensagem}";
 
 if ($mail->send()) {
-	header("Location: index.html?email=sucesso");
+	header("Location: index.html/#contato?email=sucesso");
 }else{
-	header("Location: index.html?email=erro");
+	header("Location: index.html/#contato?email=erro");
 }
 die();
  ?>
