@@ -22,9 +22,9 @@ $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}<
 $mail->AltBody= "de: {$nome}\nemail: {$email}\nmensagem: {$mensagem}";
 
 if ($mail->send()) {
-	header("Location: index.html/#contato?email=sucesso");
+	header("Location: index.html/#contato/?email=sucesso");
 }else{
-	header("Location: index.html/#contato?email=erro");
+	header("Location: index.html/#contato/?email=erro");
 }
 die();
  ?>
