@@ -12,8 +12,6 @@
     <title>Advocacia Dreer</title>
   </head>
 
-
-
   <body>
     <section id="home">
       <div class="header-contato">
