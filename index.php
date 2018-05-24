@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="google-site-verification" content="uiUDbaWr1_VbmyPj0nAWrTk4QykD6NGPzmSfk8_N-NM" />
+    <link rel="alternate" href="http://advocaciadreer.com.br/" hreflang="pt-br" />
     <link href="assests/fonts/trajan-pro-regular.ttf" rel="stylesheet">
     <link rel="stylesheet" href="assests/css/bootstrap.min.css">
     <link rel="stylesheet" href="assests/css/custom.css?version=2">
@@ -11,6 +12,17 @@
     <link rel="icon" href="assests/img/img.ico" />
     <title>Advocacia Dreer</title>
   </head>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119826151-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119826151-1');
+  </script>
+
 
   <body>
     <section id="home">
