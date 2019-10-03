@@ -15,8 +15,8 @@ $mail->SMTPAuth = true;
 $mail->Username = "form@advocaciadreer.com.br";
 $mail->Password = "form@dreer";
 
-$mail->setFrom("form@advocaciadreer.com.br","{$nome}");
-$mail->addAddress("form@advocaciadreer.com.br");
+$mail->setFrom("contato@advocaciadreer.com.br","{$nome}");
+$mail->addAddress("contato@advocaciadreer.com.br");
 $mail->Subject = "Contato Site ".$nome;
 $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}<br/>telefone: {$telefone}</html>");
 $mail->AltBody= "de: {$nome}\nemail: {$email}\nmensagem: {$mensagem}";
