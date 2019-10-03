@@ -12,8 +12,8 @@ $mail->Host = 'mx1.hostinger.com.br';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = "form@advocaciadreer.com.br";
-$mail->Password = "form@dreer";
+$mail->Username = "contato@advocaciadreer.com.br";
+$mail->Password = "203839";
 
 $mail->setFrom("contato@advocaciadreer.com.br","{$nome}");
 $mail->addAddress("contato@advocaciadreer.com.br");
